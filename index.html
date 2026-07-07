@@ -1,182 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<title>Auditum Memoria™</title>
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Site Index — Auditum Memoria</title>
 <style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #0a0e27;
+    color: #e0e0e0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.7;
+  }
+  .container { max-width: 780px; margin: 0 auto; padding: 60px 24px; }
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
+  .meta-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 16px;
+    font-size: 0.82em;
+    color: #7a8296;
+    border-bottom: 1px solid #1e2340;
+    padding-bottom: 18px;
+    margin-bottom: 40px;
+    font-family: 'SF Mono', Consolas, monospace;
+  }
+  .meta-bar span.category { color: #4a90e2; font-weight: 600; }
+  .meta-bar span.sep { color: #33395c; }
 
-body{
+  h1 { font-size: 1.9em; color: #fff; margin-bottom: 12px; font-weight: 700; }
+  .subtitle { color: #7a8296; margin-bottom: 44px; font-size: 0.95em; }
 
-    background:#0f1115;
-    color:#f4f4f4;
+  .branch {
+    margin-bottom: 8px;
+    padding: 14px 0;
+    border-bottom: 1px solid #161a33;
+  }
+  .branch:last-child { border-bottom: none; }
 
-    font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    Roboto,
-    sans-serif;
+  .branch-title {
+    color: #fff;
+    font-size: 1.05em;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  .branch-title a { color: #fff; text-decoration: none; }
+  .branch-title a:hover { color: #4a90e2; }
 
-}
+  .branch-desc {
+    color: #8a90a8;
+    font-size: 0.88em;
+    margin-bottom: 10px;
+  }
 
-main{
+  .children {
+    margin-left: 20px;
+    padding-left: 16px;
+    border-left: 1px solid #232849;
+  }
 
-    max-width:900px;
-    margin:auto;
-    padding:80px 32px;
+  .child {
+    padding: 6px 0;
+    font-size: 0.92em;
+  }
+  .child a { color: #b8bcd8; text-decoration: none; }
+  .child a:hover { color: #4a90e2; text-decoration: underline; }
+  .child .note { color: #5a6080; font-size: 0.85em; margin-left: 8px; }
 
-}
+  .status-tag {
+    display: inline-block;
+    font-size: 0.72em;
+    padding: 1px 7px;
+    border-radius: 3px;
+    margin-left: 8px;
+    font-family: 'SF Mono', Consolas, monospace;
+  }
+  .status-live { background: #16311f; color: #6bcf7f; }
+  .status-draft { background: #332412; color: #e0a94a; }
+  .status-planned { background: #241832; color: #a888d0; }
 
-h1{
-
-    font-size:56px;
-    font-weight:700;
-    margin-bottom:12px;
-
-}
-
-.subtitle{
-
-    color:#8d95a5;
-    font-size:20px;
-    margin-bottom:60px;
-
-}
-
-.card{
-
-    background:#171b22;
-    border:1px solid #2b313c;
-
-    border-radius:14px;
-
-    padding:32px;
-
-}
-
-h2{
-
-    margin-bottom:18px;
-
-}
-
-p{
-
-    line-height:1.75;
-    margin-bottom:18px;
-
-}
-
-.button{
-
-    display:inline-block;
-
-    margin-top:18px;
-
-    padding:14px 24px;
-
-    background:#4f7cff;
-
-    color:white;
-
-    text-decoration:none;
-
-    border-radius:8px;
-
-    transition:.2s;
-
-}
-
-.button:hover{
-
-    background:#3965ea;
-
-}
-
-footer{
-
-    margin-top:80px;
-
-    padding-top:30px;
-
-    border-top:1px solid #2b313c;
-
-    color:#7e8797;
-
-    font-size:15px;
-
-}
-
+  .back-link {
+    display: inline-block;
+    margin-top: 50px;
+    color: #4a90e2;
+    text-decoration: none;
+    font-size: 0.9em;
+  }
 </style>
-
 </head>
-
 <body>
+  <div class="container">
 
-<main>
+    <div class="meta-bar">
+      <span class="category">Site Index</span>
+      <span class="sep">·</span>
+      <span>Version 1.0.0</span>
+      <span class="sep">·</span>
+      <span>Updated July 7, 2026, 09:14</span>
+    </div>
 
-<h1>Auditum Memoria™</h1>
+    <h1>Site Map</h1>
+    <p class="subtitle">Full structure of Auditum Memoria™ — laboratory, framework, and case applications.</p>
 
-<p class="subtitle">
+    <div class="branch">
+      <div class="branch-title"><a href="welcome.html">Welcome</a> <span class="status-tag status-live">live</span></div>
+      <div class="branch-desc">Entry point — public definition of the laboratory.</div>
+    </div>
 
-Experimental Pre-Litigation Intelligence Lab
+    <div class="branch">
+      <div class="branch-title"><a href="#">Board Whisperer Framework™</a> <span class="status-tag status-draft">draft</span></div>
+      <div class="branch-desc">Foundation — methodological system generating the laboratory's logic.</div>
+      <div class="children">
+        <div class="child"><a href="#">Overview</a> <span class="note">framework overview + core principles</span></div>
+      </div>
+    </div>
 
-</p>
+    <div class="branch">
+      <div class="branch-title"><a href="#">The Candrian Case</a> <span class="status-tag status-planned">planned</span></div>
+      <div class="branch-desc">Instance of application — the framework operationalized through a concrete dispute.</div>
+      <div class="children">
+        <div class="child"><a href="#">Situation</a> <span class="note">facts + context</span></div>
+        <div class="child"><a href="#">Probative Structure</a> <span class="note">evidence + correspondence</span></div>
+        <div class="child"><a href="#">Analysis</a></div>
+        <div class="child"><a href="#">Procedures</a> <span class="note">legal trajectories, scenarios</span></div>
+        <div class="child"><a href="#">Infrastructure</a> <span class="note">AEO + technical resilience + legal conformity</span></div>
+      </div>
+    </div>
 
-<div class="card">
+    <a href="#" class="back-link">← Back to Welcome</a>
 
-<h2>Public Definition</h2>
-
-<p>
-
-Auditum Memoria™ develops experimental methods for structuring
-memory, evidence, organizational reality and pre-litigation
-knowledge production.
-
-</p>
-
-<p>
-
-The laboratory explores how fragmented experiences,
-institutional interactions and documentary evidence can be
-transformed into coherent analytical structures.
-
-</p>
-
-<a class="button"
-href="Auditum%20Memoria%E2%84%A2%20%E2%80%94%20Public%20Definition.html">
-
-Enter the laboratory →
-
-</a>
-
-</div>
-
-<footer>
-
-Auditum Memoria™<br>
-
-Independent Research Laboratory<br><br>
-
-Contact<br>
-
-screen.objects@gmail.com
-
-</footer>
-
-</main>
-
+  </div>
 </body>
-
 </html>
