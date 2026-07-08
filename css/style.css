@@ -171,6 +171,25 @@ a.link-external::after {
   font-size: 0.85em;
 }
 
+/* ---- Sélecteur de langue ---- */
+
+.lang-switch {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 24px;
+}
+.lang-switch a {
+  font-size: 0.78em;
+  font-family: 'SF Mono', Consolas, monospace;
+  color: #7a8296;
+  text-decoration: none;
+  padding: 3px 9px;
+  border: 1px solid #232849;
+  border-radius: 4px;
+}
+.lang-switch a:hover { color: #4a90e2; border-color: #4a90e2; }
+.lang-switch a.active { color: #fff; background: #1e2340; border-color: #1e2340; }
+
 /* ---- Liens de navigation générique ---- */
 
 .back-link {
