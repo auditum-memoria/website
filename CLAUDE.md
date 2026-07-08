@@ -13,23 +13,25 @@ website/
 ├── welcome.html (EN, canonique/historique)
 ├── welcome-fr.html / welcome-de.html
 ├── css/style.css
-└── board-whisperer-framework/
-    ├── (overview.html — pas encore construit)
-    ├── candrian-case/ (structure existante, pas encore construite)
-    └── existential-topology/
-        ├── index.html (sous-menu de section — EN uniquement, pas encore construit)
-        ├── grounds-monetary-immorality.html (Grounds I — EN, live)
-        ├── grounds-monetary-immorality-fr.html / -de.html
-        ├── genealogy-silence-norm.html (Genealogy I — EN, live)
-        ├── genealogy-silence-norm-fr.html / -de.html
-        ├── stance-blackmail-deterrence.html (Stance I — EN, live)
-        ├── stance-blackmail-deterrence-fr.html / -de.html
-        ├── mechanics-norm-accusation.html (Mechanics I — EN, live)
-        ├── mechanics-norm-accusation-fr.html / -de.html
-        ├── stance-shame-dignity.html (Stance II — EN, live)
-        ├── stance-shame-dignity-fr.html / -de.html
-        └── concept-theatre-normatif.html (Concept — FR, glossaire, pas encore écrit)
+├── board-whisperer-framework/
+│   ├── (overview.html — pas encore construit)
+│   └── candrian-case/ (structure existante, pas encore construite)
+└── existential-topology/
+    ├── index.html (sous-menu de section — EN uniquement, pas encore construit)
+    ├── grounds-monetary-immorality.html (Grounds I — EN, live)
+    ├── grounds-monetary-immorality-fr.html / -de.html
+    ├── genealogy-silence-norm.html (Genealogy I — EN, live)
+    ├── genealogy-silence-norm-fr.html / -de.html
+    ├── stance-blackmail-deterrence.html (Stance I — EN, live)
+    ├── stance-blackmail-deterrence-fr.html / -de.html
+    ├── mechanics-norm-accusation.html (Mechanics I — EN, live)
+    ├── mechanics-norm-accusation-fr.html / -de.html
+    ├── stance-shame-dignity.html (Stance II — EN, live)
+    ├── stance-shame-dignity-fr.html / -de.html
+    └── concept-theatre-normatif.html (Concept — FR, glossaire, pas encore écrit)
 ```
+
+**Existential Topology n'est pas un sous-ensemble de Board Whisperer Framework.** Rattachement reconsidéré le 8 juillet 2026 : c'est une branche indépendante du Laboratoire (Auditum Memoria), au même rang que Board Whisperer Framework — d'où son emplacement à la racine du repo (`existential-topology/`) et non sous `board-whisperer-framework/`. Raisons : le corpus est né après le Framework, se déclare lui-même autonome dans son document fondateur (SMET), et pèse aujourd'hui presque autant que le Framework en volume.
 
 ## Convention de nommage des langues — RÈGLE CRITIQUE
 
