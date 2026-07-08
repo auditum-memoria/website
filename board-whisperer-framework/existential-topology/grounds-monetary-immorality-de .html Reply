@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grounds I — Ein Kriterium, das als verdächtig gilt und trotzdem zum Urteilen benutzt wird</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+
+    <div class="meta-bar">
+      <span class="category">Grounds I</span>
+      <span class="sep">·</span>
+      <span>Version 3.0.0</span>
+      <span class="sep">·</span>
+      <span>Aktualisiert am 8. Juli 2026</span>
+    </div>
+
+    <div class="lang-switch">
+      <a href="grounds-monetary-immorality.html">FR</a>
+      <a href="grounds-monetary-immorality-en.html">EN</a>
+      <a href="grounds-monetary-immorality-de.html" class="active">DE</a>
+    </div>
+
+    <h1>Ein Kriterium, das als verdächtig gilt und trotzdem zum Urteilen benutzt wird</h1>
+
+    <div class="exec-def">
+      Reichtum wird regelmässig als moralisch verdächtig beurteilt. Und doch entscheidet gerade dieses Kriterium darüber, wer gehört, wer geglaubt, wer ernst genommen wird. Dieser Text erklärt diesen Widerspruch — und warum er das auferlegte Schweigen über Geld schwerer zu rechtfertigen macht, als man denkt.
+    </div>
+
+    <h2>Vier Gedanken, einer nach dem anderen</h2>
+
+    <div class="concept">
+      <div class="term">1. Habgier zählte historisch zu den schwersten Verfehlungen</div>
+      <p>In der christlichen Tradition gehört die <em>avaritia</em> — das übermässige Verlangen nach Reichtum — zu den sieben Todsünden, neben Hochmut und Zorn. Das mittelalterliche Kirchenrecht verbot sogar das Zinsgeschäft, den Wucher, weil schon der Gewinn aus Geld selbst zutiefst verdächtig erschien. Dies ist keine neue oder marginale Idee: Das Misstrauen gegenüber Bereicherung zieht sich durch Jahrhunderte der Moralgeschichte.</p>
+    </div>
+
+    <div class="concept">
+      <div class="term">2. Genau dieses Kriterium wurde zum Fundament unserer Gesellschaften</div>
+      <p>Ungeachtet dieser alten moralischen Verurteilung bestimmt die wirtschaftliche Position einer Person heute mehr als fast jeder andere Faktor, ob sie gehört, geglaubt, ernst genommen wird oder ob ihr Scheitern verziehen wird. Dies ist kein Urteil über reiche oder arme Menschen — es ist eine Feststellung darüber, was die Gesellschaft als Grundlage ihrer sozialen Organisation gewählt hat.</p>
+    </div>
+
+    <div class="concept">
+      <div class="term">3. Dieser Widerspruch hat keinen Urheber — er wird einfach nie konfrontiert</div>
+      <p>Es handelt sich nicht um eine bewusst von jemandem organisierte Lüge. Der Soziologe Michael Billig spricht von einem <em>ideologischen Dilemma</em>: Eine Gesellschaft kann mehrere unvereinbare Werte gleichzeitig vertreten, jeden einzeln je nach Kontext anrufen, ohne sie je nebeneinanderzustellen. "Geld ist verdächtig" und "Geld bestimmt deinen Platz" bestehen so nebeneinander, ohne sich je in derselben Aussage zu begegnen.</p>
+    </div>
+
+    <div class="concept">
+      <div class="term">4. Das Unbehagen betrifft beide Seiten</div>
+      <p>Sichtbar arm zu sein setzt dem Verdacht aus. Sichtbar reich zu sein setzt einem diskreteren Unbehagen aus — dem, von einem Kriterium profitiert zu haben, das dieselbe Gesellschaft prinzipiell zu verurteilen behauptet. Keine der beiden Positionen ist bequem, gerade weil dieses Kriterium von Anfang an nie als Grundlage gedacht war.</p>
+    </div>
+
+    <h2>Was wir aufzeigen wollen, in drei Sätzen</h2>
+
+    <div class="summary-box">
+      <p><strong>1.</strong> Eine Gesellschaft kann Geld nicht als moralisch verdächtig erklären und es gleichzeitig benutzen, um zu entscheiden, wer Respekt und Glaubwürdigkeit verdient.</p>
+      <p><strong>2.</strong> Dieser Widerspruch wird nie aufgelöst — er bleibt im blinden Fleck, sowohl für jene, denen Geld fehlt, als auch für jene, die es besitzen.</p>
+      <p><strong>3.</strong> Offen über die eigene wirtschaftliche Situation zu sprechen ist daher keine Frage des Anstands, den man wahren sollte — es bedeutet, auf einen grundlegenden Widerspruch hinzuweisen, dem sich die Gesellschaft lieber nie stellt.</p>
+    </div>
+
+    <a href="index.html" class="back-link">← Zur Seitenübersicht</a>
+
+  </div>
+</body>
+</html>
