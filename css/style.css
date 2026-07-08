@@ -1,7 +1,7 @@
 /* ============================================================
    AUDITUM MEMORIA — SHARED STYLESHEET
-   Version: 2.0.0
-   Updated: 2026-07-08 — added concept/summary-box/link classes
+   Version: 2.1.0
+   Updated: 2026-07-08 — lang-switch merged into meta-bar (front-matter)
    Usage: <link rel="stylesheet" href="css/style.css"> (adjust ../ per depth)
    ============================================================ */
 
@@ -20,18 +20,30 @@ body {
   padding: 60px 24px;
 }
 
-/* ---- Meta bar (frontmatter visible en haut de chaque page) ---- */
+/* ---- Meta bar / front-matter (visible en haut de chaque page) ----
+   Contient désormais deux zones : .meta-left (catégorie/version/date)
+   et .lang-switch (FR/EN/DE), sur la même ligne, alignées aux deux
+   extrémités. Sur petit écran, .lang-switch passe à la ligne suivante
+   grâce à flex-wrap. */
 
 .meta-bar {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px 16px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px 16px;
   font-size: 0.82em;
   color: #7a8296;
   border-bottom: 1px solid #1e2340;
   padding-bottom: 18px;
   margin-bottom: 40px;
   font-family: 'SF Mono', Consolas, monospace;
+}
+.meta-bar .meta-left {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  align-items: center;
 }
 .meta-bar span.category { color: #4a90e2; font-weight: 600; }
 .meta-bar span.sep { color: #33395c; }
@@ -171,12 +183,14 @@ a.link-external::after {
   font-size: 0.85em;
 }
 
-/* ---- Sélecteur de langue ---- */
+/* ---- Sélecteur de langue — vit désormais À L'INTÉRIEUR du .meta-bar,
+   pas comme bloc séparé au-dessus. Pas de margin-bottom propre : c'est
+   le gap du flex parent (.meta-bar) qui gère l'espacement. ---- */
 
 .lang-switch {
   display: flex;
   gap: 6px;
-  margin-bottom: 24px;
+  align-items: center;
 }
 .lang-switch a {
   font-size: 0.78em;
