@@ -127,6 +127,31 @@ p { margin-bottom: 20px; color: #c8cce0; }
 .branch-title a { color: #fff; text-decoration: none; }
 .branch-title a:hover { color: #4a90e2; }
 
+/* ---- Accordéon natif (<details>/<summary>), zéro JS ----
+   .branch-title est réutilisé comme <summary> : on masque le marqueur
+   natif et on le remplace par ▸, qui tourne à 90° quand le <details>
+   parent est ouvert. Imbrication possible : un <details> peut vivre
+   dans .children, avec son propre <summary class="branch-title">. */
+
+summary.branch-title {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+summary.branch-title::-webkit-details-marker { display: none; }
+summary.branch-title::before {
+  content: "▸";
+  display: inline-block;
+  color: #7a8296;
+  transition: transform 0.15s ease;
+  flex-shrink: 0;
+}
+details[open] > summary.branch-title::before {
+  transform: rotate(90deg);
+}
+
 .branch-desc {
   color: #8a90a8;
   font-size: 0.88em;
