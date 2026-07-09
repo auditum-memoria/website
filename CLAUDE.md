@@ -98,6 +98,19 @@ Tous les liens `class="link-internal"` et `class="link-external"` du corpus Fond
 - **Unification des documents** : PAS de fusion systématique voulue. Travail ciblé uniquement sur les vrais doublons (V1/V2/V3 d'un même document) ou familles qui se recoupent clairement. Fichiers séparés = norme, plus faciles à maintenir. Éviter toute réécriture longue via IA générative (risque de perte d'info).
 - **Linter/générateur AEO×GEO** : fondations empiriques posées (5 tactiques gagnantes : Cite Sources, Statistics, Quotation, Fluency, Authoritative Voice — étude Aggarwal et al. 2024, KDD). 3 questions ouvertes non tranchées : sensibilité au type de document, score global vs rapport qualitatif, cible HTML publié vs markdown source.
 
+## Convention de commit
+
+Chaque commit doit avoir :
+- un titre précis, pas générique (pas "fix bug" ou "update files" —
+  dire quoi exactement a changé)
+- un corps de message qui reprend le "pourquoi" donné dans l'instruction,
+  pas seulement le "quoi" — si l'instruction contient une "Raison :",
+  elle doit apparaître dans le message de commit, pas seulement guider
+  le code
+- si plusieurs corrections indépendantes sont faites dans le même commit,
+  chacune est listée séparément dans le corps du message, pas fusionnée
+  en une phrase vague
+
 ## Mode de travail de l'utilisateur
 
 Travaille principalement depuis un smartphone. Préfère accumuler un batch de modifications plutôt que des éditions ponctuelles rapides. Pas de moralisation, pas de conseils non sollicités — formaliser, cartographier, structurer, pas orienter.
