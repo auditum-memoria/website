@@ -107,6 +107,10 @@ Chaque commit doit avoir :
   pas seulement le "quoi" — si l'instruction contient une "Raison :",
   elle doit apparaître dans le message de commit, pas seulement guider
   le code
+- ce "pourquoi" doit être explicité même quand l'instruction ne contient
+  pas de "Raison :" formelle — le titre et le corps doivent rester
+  compréhensibles dans 3 mois en ne relisant que l'historique git, sans
+  avoir à reconstruire le contexte de mémoire
 - si plusieurs corrections indépendantes sont faites dans le même commit,
   chacune est listée séparément dans le corps du message, pas fusionnée
   en une phrase vague
