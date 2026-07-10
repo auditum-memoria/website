@@ -115,6 +115,14 @@ Chaque commit doit avoir :
   chacune est listée séparément dans le corps du message, pas fusionnée
   en une phrase vague
 
+## Heure dans last_updated
+
+Chaque fois qu'une page est créée ou modifiée, le champ "Updated" du
+meta-bar doit inclure l'heure (format "July 10, 2026, 14:32"), pas
+seulement la date. L'heure à utiliser est celle du moment de la
+création/modification du fichier, pas une tentative de deviner l'heure
+exacte du merge — approximatif mais présent vaut mieux qu'absent.
+
 ## Mode de travail de l'utilisateur
 
 Travaille principalement depuis un smartphone. Préfère accumuler un batch de modifications plutôt que des éditions ponctuelles rapides. Pas de moralisation, pas de conseils non sollicités — formaliser, cartographier, structurer, pas orienter.
