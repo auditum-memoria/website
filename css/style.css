@@ -279,3 +279,11 @@ a.link-external::after {
   text-align: left;
 }
 .fm-value a.link-internal { font-family: 'SF Mono', Consolas, monospace; }
+
+/* ---- Message des pages d'attente (destinations draft/planned/ready pas encore construites) ---- */
+
+.placeholder-message {
+  color: #8a90a8;
+  font-size: 1.05em;
+  margin-top: 24px;
+}
