@@ -246,3 +246,36 @@ a.link-external::after {
 }
 .back-link:visited { color: #4a90e2; }
 .back-link:hover { text-decoration: underline; }
+
+/* ---- Front-matter block (pages Asset) — clé/valeur alignées ---- */
+
+.frontmatter {
+  font-family: 'SF Mono', Consolas, monospace;
+  font-size: 0.85em;
+  margin-bottom: 40px;
+}
+.fm-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 8px 0;
+  border-bottom: 1px solid #161a33;
+}
+.fm-key-col {
+  flex: 0 0 140px;
+  text-align: right;
+}
+.fm-key {
+  display: inline-block;
+  background: #16233d;
+  color: #6bb3f0;
+  padding: 2px 9px;
+  border-radius: 3px;
+  white-space: nowrap;
+}
+.fm-value {
+  flex: 1;
+  color: #c8cce0;
+  text-align: left;
+}
+.fm-value a.link-internal { font-family: 'SF Mono', Consolas, monospace; }
