@@ -123,6 +123,22 @@ seulement la date. L'heure à utiliser est celle du moment de la
 création/modification du fichier, pas une tentative de deviner l'heure
 exacte du merge — approximatif mais présent vaut mieux qu'absent.
 
+## Symbole ™ — RÈGLE CRITIQUE (posée le 10 juillet 2026)
+
+Ne jamais écrire ™ nulle part — ni sur "Auditum Memoria", ni sur aucun
+autre nom du système (ProofMark, Legal NFT, Légiférant NFT, etc.).
+Aucune marque n'a été déposée, donc ce symbole ne représente rien de
+réel.
+
+- **Rétroactif** : chaque fois qu'un fichier du site ou du corpus passe
+  entre les mains de l'assistant (édité, lu, régénéré), retirer le ™
+  qui s'y trouve.
+- **Par défaut** : aucun symbole après un nom propre. Pas de ™, et pas
+  de ⧉ non plus par défaut.
+- **⧉** ne s'ajoute que si ce document précis a un Data Tx ID Arweave
+  confirmé qui lui est propre — jamais en anticipation, jamais par
+  automatisme.
+
 ## Mode de travail de l'utilisateur
 
 Travaille principalement depuis un smartphone. Préfère accumuler un batch de modifications plutôt que des éditions ponctuelles rapides. Pas de moralisation, pas de conseils non sollicités — formaliser, cartographier, structurer, pas orienter.
